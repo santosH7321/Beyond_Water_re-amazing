@@ -13,62 +13,72 @@
   </head>
   <body>
     <div class="main w-full">
-      <!-- offer -->
-      <div class="offer py-3 px-4 bg-[#99C1C5]">
-        <h4 class="text-base leading-7">
+      <div class="flex flex-col w-full h-screen">
+        <!-- offer -->
+      <div class="offer py-3 px-4 bg-[#99C1C5] md:px-10 lg:px-20">
+        <h4 class="text-base md:text-sm leading-7">
           Use code "Sharktank" and get FLAT 20% OFF (Not Applicable on Iced
           Teas) || Free Shipping on order above 500
         </h4>
       </div>
       <!-- Navbar -->
-      <div class="navbar w-full px-6 py-7 flex justify-between">
+      <div class="navbar md:px-10 lg:px-32 w-full px-6 py-7 flex items-center md:justify-start">
         <img
           class="w-40"
           src="https://drinkbeyond.co.in/cdn/shop/files/beyondwater_Logo_1x1-01_800x.png?v=1614383558"
           alt=""
         />
+        <div class="hidden md:flex ml-10 gap-10">
+          <a class="text-xs tracking-tight capitalize font-medium" href="#">go to home</a>
+          <a class="text-xs tracking-tight capitalize font-medium" href="#">shop by category</a>
+          <a class="text-xs tracking-tight capitalize  font-medium" href="#">more links</a>
+        </div>
 
-        <div class="right flex gap-5 items-center">
+        <div class="right md:hidden flex gap-5 items-center">
           <a class="text-sm font-medium" href="#">Shop</a>
           <a class="text-sm font-medium" href="#">Menu</a>
         </div>
       </div>
       <!-- banner -->
-      <div class="banner">
-        <div class="image w-full h-[40vh]">
+      <div class="banner w-full md:flex-1 md:flex md:flex-row-reverse md:overflow-hidden">
+        <div class="image w-full md:w-1/2 h-[40vh] md:h-full">
           <img
             class="w-full h-full object-cover object-center"
             src="https://scontent-lhr6-1.cdninstagram.com/v/t51.29350-15/403577126_653241933680143_2732706620677891806_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=rLl0wBIbJFgQ7kNvgEVOGCG&_nc_ht=scontent-lhr6-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYAYerkJmSRTkc3DdcV32Qoiw5k2cTtNmSHHh4CtcM5W4g&oe=667BE955"
             alt=""
           />
         </div>
-        <div class="info px-4 py-10 w-full min-h-[40vh]">
-          <h3 class="text-3xl font-medium tracking-tighter">We make water</h3>
-          <h1 class="text-6xl font-bold leading-[3.7rem] tracking-tighter">
-            Super-
-          </h1>
-          <h1 class="text-6xl font-bold leading-[3.7rem] tracking-tighter">
-            Powered 💪
-          </h1>
-          <h5 class="text-xl font-medium leading-none tracking-tighter mt-3">
-            That's our story
-          </h5>
-
-          <div
-            class="shippingoffer flex w-4/5 items-center gap-2 mt-4 px-4 py-1 rounded-md bg-[#FBD11B]"
-          >
-            <i class="ri-truck-line"></i>
-            <h3 class="text-sm font-semibold tracking-tight leading-none">
-              Free Shipping on order above 500
-            </h3>
-          </div>
-
-          <button
-            class="bg-black text-white px-5 py-3 mt-5 rounded-lg font-semibold"
-          >
-            Check Products
-          </button>
+        <div class="info px-4 py-10 md:flex-col md:justify-between md:px-32  w-full md:w-1/2 min-h-[40vh] md:h-full">
+            <div class="upper">
+              <h3 class="text-3xl md:text-5xl font-medium tracking-tighter">We make water</h3>
+              <h1 class="text-7xl md:text-[7rem] md:leading-[6rem] leading-[3.7rem] font-bold tracking-tighter">
+                Super-
+              </h1>
+              <h1 class="text-7xl md:text-[7rem] md:leading-[6rem] font-bold leading-[3.7rem] tracking-tighter">
+                Powered 💪
+              </h1>
+              <h5 class="text-xl md:text-4xl font-medium leading-none tracking-tighter mt-3">
+                That's our story
+              </h5>
+    
+              <div
+                class="shippingoffer md:w-[60%] md:mt-8 md:py-2 flex w-4/5 items-center gap-2 mt-4 px-4 py-1 rounded-md bg-[#FBD11B]"
+              >
+                <i class="ri-truck-line"></i>
+                <h3 class="text-sm md:text-lg font-semibold tracking-tight leading-none">
+                  Free Shipping on order above 500
+                </h3>
+              </div>
+    
+              <button
+                class="bg-black text-white md:px-10 md:py-5 px-5 py-3 mt-5 rounded-lg font-semibold md:text-xl"
+              >
+                Check Products
+              </button>
+            </div>
+            <p>there's more waiting for you.</p>
         </div>
+      </div>
       </div>
       <!-- Suger -->
       <div class="suger my-5 w-full h-[50vh] flex items-center overflow-hidden">
