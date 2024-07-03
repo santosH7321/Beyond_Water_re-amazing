@@ -22,7 +22,7 @@
         </h4>
       </div>
       <!-- Navbar -->
-      <div class="navbar md:px-10 lg:px-32 w-full px-6 py-7 flex items-center md:justify-start">
+      <div class="navbar md:px-10 lg:px-32 w-full px-6 py-7 flex items-center md:justify-start overflow-hidden">
         <img
           class="w-40"
           src="https://drinkbeyond.co.in/cdn/shop/files/beyondwater_Logo_1x1-01_800x.png?v=1614383558"
@@ -34,13 +34,13 @@
           <a class="text-xs tracking-tight capitalize  font-medium" href="#">more links</a>
         </div>
 
-        <div class="right md:hidden flex gap-5 items-center">
-          <a class="text-sm font-medium" href="#">Shop</a>
-          <a class="text-sm font-medium" href="#">Menu</a>
+        <div class="right md:hidden flex justify-between items-center px-[80px] gap-8">
+          <a class="text-3xl font-medium" href="#"><i class="ri-shopping-cart-line"></i></a>
+          <a class="text-3xl font-medium" href="#"><i class="ri-menu-3-line"></i></a>
         </div>
       </div>
       <!-- banner -->
-      <div class="banner w-full md:flex-1 md:flex md:flex-row-reverse md:overflow-hidden">
+      <div class="banner w-full h-full md:flex-1 md:flex md:flex-row-reverse md:overflow-hidden">
         <div class="image relative w-full md:w-1/2 h-[40vh] flex flex-nowrap overflow-hidden md:h-full">
           <div class="flex w-full h-full">
             <img class="banner-img w-full h-full object-cover object-center" src="./by1.jpg" alt="" />
@@ -49,7 +49,12 @@
             <img class="banner-img w-full h-full object-cover object-center" src="./by4.jpg" alt="" />
             <img class="banner-img w-full h-full object-cover object-center" src="./by5.jpg" alt="" />
           </div>
-          <h4 class="slide-btn absolute bottom-10 right-10 bg-white h-10 w-20 rounded-full flex items-center justify-center cursor-pointer shadow-lg"><i class="text-2xl ri-speed-mini-line"></i></h4>
+
+          <!-- manula slides btn -->
+          <!-- <h4 class="slide-btn absolute bottom-10 right-10 bg-white h-10 w-20 rounded-full flex items-center justify-center cursor-pointer shadow-lg">
+            <i class="text-2xl ri-speed-mini-line"></i>
+          </h4> -->
+
         </div>
         
 
@@ -212,7 +217,7 @@
           </div>
         </div>
 
-        <footer class="bg-gray-800 text-white mt-auto">
+        <footer class="bg-gray-800 text-white mt-auto overflow-hidden">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
               <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                   <!-- Column 1 -->

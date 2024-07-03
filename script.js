@@ -75,4 +75,4 @@ function manulaBanner() {
 
 horizontalScrollAnimation();
 automaticBanner();
-manulaBanner();
+// manulaBanner();
