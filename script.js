@@ -53,7 +53,26 @@ function automaticBanner() {
   );
 }
 
+function manulaBanner() {
+  var btn = document.querySelector(".slide-btn");
+  var move = 0;
+  btn.addEventListener("click", function () {
+    move += 100;
 
+    if (move != 500) {
+      gsap.to(".banner-img", {
+        transform: `translateX(-${move}%)`,
+      });
+    } else {
+      gsap.to(".banner-img", {
+        duration: 0,
+        transform: `translateX(0%)`,
+      });
+      move = 0;
+    }
+  });
+}
 
 horizontalScrollAnimation();
 automaticBanner();
+manulaBanner();
